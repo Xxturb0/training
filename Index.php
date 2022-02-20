@@ -17,27 +17,29 @@
  
         <nav class="navigasi">
             <ul>
+                <li><a href="login.php">Admin</a></li>
                 <li><a class="active" href="http://localhost/ta-prpl2021-c-1900018160-aplikasi-penjualan-sepeda-jaya/index.php">Home</a></li>
-                <li><a href="">Jenis Sepeda</a></li>
-                <li><a href="">Pesan</a></li>
+                <li><a href="Jenis-Sepeda.php">Jenis Sepeda</a></li>
+                <li><a href="Jenis-Sepeda.php">Pesan</a></li>
             </ul>
         </nav>
  
         <div class="banner">
-            <img src="Motor.jpg" alt="Toko Sepeda Jasa">
+            <img src="Logo.png" alt="Toko Sepeda Jaya">
         </div>
  
         <div class="menu-kiri">
             <div class="kotak">
                 <h3>Alamat</h3>
-                <p>
+                <img src="Logo.png">
+                <center><p>
                     Jl.Bawal No.3 Yogyakarta
-                </p>
+                </p></center>
             </div>
             <div class="kotak">
                 <h3>Pesan</h3>
-                <p>Isi Form Disini Untuk Beli</p>
-                <a class="tombol tombol-pesan" href="">Pesan</a>
+                <center><p>Isi Form Disini Untuk Beli</p></center>
+                <a class="tombol tombol-pesan" href="Jenis-Sepeda.php">Pesan</a>
             </div>
 
         </div>
@@ -46,23 +48,18 @@
         <div class="menu-tengah">
             <div class="kotak">
                 <h3>Toko Sepeda Jaya</h3>
+                <P>Selamat Datang di Website Toko Sepeda Jaya</P>
                 <span class="tanggal-posting">
-                    <!-- Diposting pada 15.11 WITA, 13 Juli 2020 -->
-                </span>
+                    Diposting pada 15.11 WITA, 1 Mei 2021
+                </span>                
  
-                <img src="Motor.jpg" alt="Sepeda">
- 
-                <p>
-                </p>
- 
-                <a class="tombol tombol-lengkap" href="#">Selengkapnya</a>
             </div>
         </div>
  
         <div class="menu-kanan">
             <div class="kotak">
                 <h3>Jadwal Buka</h3>
-                <img src="Motor.jpg" alt="Sepeda">
+                <img src="Logo.png" alt="Sepeda">
  
                 <h4 align="center">Jadwal Buka</h4>
                 <center>
@@ -76,18 +73,14 @@
  
                 <nav class="menu-artikel">
                     <ul>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
+                        <li><a href="Jenis-Sepeda.php">Sepeda Terbaru</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
  
         <footer>
-            @copyright 2020 || M.S
+            @Copyright 2021 || M.S
         </footer>
  
     </div>
